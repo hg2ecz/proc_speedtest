@@ -5,19 +5,19 @@ shopt -s expand_aliases
 cd ~/tmp
 
 echo -e "\npython 2.7(?)"
-tm python ./ggg.py
+tm python ./proc_speed_test.py
 
 echo -e "\npython 3"
-tm python3 ./ggg.py
+tm python3 ./proc_speed_test.py
 
 echo -e "\nruby"
-tm ruby ./ggg.rb
+tm ruby ./proc_speed_test.rb
 
 echo -e "\npypy"
-tm pypy ./ggg.py
+tm pypy ./proc_speed_test.py
 
 echo -e "\nC"
-tm ./ggg
+tm ./proc_speed_test_c
 
 
 
