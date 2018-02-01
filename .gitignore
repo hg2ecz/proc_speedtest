@@ -3,4 +3,6 @@
 !*.py
 !*.rb
 !*.sh
+!*.md
+!*.MD
 !.gitignore
