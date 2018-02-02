@@ -10,7 +10,6 @@ int main(int argc, char * argv[]){
 	char buff[10000];
 
 
-
 	for(j=0; j<10000; j++){
 		int retc=glob("/proc/[0-9]*/stat", 0, NULL, &pglob);
 		if(retc!=0){ printf("Debug: retc=%u\n",retc); }
