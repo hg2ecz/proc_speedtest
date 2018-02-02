@@ -2,7 +2,9 @@
 
 alias tm='/usr/bin/time -f "%e %S %U %I %O %c"'
 shopt -s expand_aliases
-cd ~/tmp
+
+echo -e "\njava"
+tm java Proc_Speed_Test
 
 echo -e "\npython 2.7(?)"
 tm python ./proc_speed_test.py
