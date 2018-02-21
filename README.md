@@ -10,3 +10,6 @@ Futásidők nagyjából:
 -  Pypy:	38s
 -  Ruby:	33s
 -  Java:	65s 
+
+Mindezt egy Dell E5570 notebookon, i5-6300U procival, Ubuntu 16.04.3 alatt, 4.13.0-32 kernellel.
+ 
