@@ -11,5 +11,14 @@ Futásidők nagyjából:
 -  Ruby:	33s
 -  Java:	65s 
 
+Újabb kernellel(rendesen felgyorsult), immár a perl is tesztelve:
+-  C:		18s
+-  Python 2.7:	33s
+-  Python 3:	70s
+-  Pypy:	25s
+-  Ruby:	28s
+-  Java:	55s
+-  Perl:	25s
+
 Mindezt egy Dell E5570 notebookon, i5-6300U procival, Ubuntu 16.04.3 alatt, 4.13.0-32 kernellel.
  
