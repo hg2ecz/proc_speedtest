@@ -18,6 +18,9 @@ tm pypy ./proc_speed_test.py
 echo -e "\njava"
 tm java Proc_Speed_Test
 
+echo -e "\nperl"
+tm perl ./proc_speed_test.pl
+
 echo -e "\nC"
 tm ./proc_speed_test_C
 
