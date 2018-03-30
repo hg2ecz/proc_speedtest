@@ -22,3 +22,5 @@ Futásidők nagyjából (öt futtatás átlagai), 4.13.0-32 kernellel:
 
 Mindezt egy Dell E5570 notebookon, i5-6300U procival, Ubuntu 16.04.3, 16.04.4 alatt.
  
+Némi utólagos java optimalizációt követően, a Java futásideje 35s körülire csökkent.
+
