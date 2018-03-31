@@ -6,7 +6,7 @@ int main(int argc, char * argv[]){
 
 	glob_t pglob;
 	unsigned int i,j;
-	unsigned int errctr,ctr=0;
+	unsigned int errctr=0,ctr=0;
 	char buff[10000];
 
 
@@ -15,10 +15,13 @@ int main(int argc, char * argv[]){
 		if(retc!=0){ printf("Debug: retc=%u\n",retc); }
 		for(i=0; i<(unsigned)pglob.gl_pathc; i++){
 			FILE *f=fopen(pglob.gl_pathv[i],"r");
-			if(f!=NULL){
-				char *c=fgets(buff,sizeof(buff)-1,f);
+			if (f) {
+				if (fgets(buff, sizeof(buff),f)) {
+					// printf("%s\n", buff);
+					ctr++;
+				}
 				fclose(f);
-				ctr++;
+
 			} else {
 				errctr++;
 			}
