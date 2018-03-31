@@ -27,4 +27,5 @@ for sFileName in lfs.dir( sDir ) do
 
 end
 
-print( ctr, err )
+print( "Count:", ctr )
+print( "Error:", err )

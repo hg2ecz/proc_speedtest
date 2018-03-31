@@ -2,31 +2,7 @@
 Egy kis sebességteszt a /proc alatti fájlok olvasásához
 
 Kíváncsi voltam, egy pythonban megírt monitoring program mennyire vállalható, aztán meg jött, hogy akkor ki is kéne próbálni, hogy mennyivel gyorsabb ugyanaz C-ben.  Meglepő, hogy a jelek szerint a python3 kb. dupla ideig fut, mint akár a python2, akár a ruby...  Ahogy az is, hogy a pypy-vel futtatott kód alig gyorsabb, mint az interpreteres verzió.
-De számomra a legmeglepőbb az volt, hogy a java változat, amit nem tudtam eléggé primitívre alakítani, egyedül a python3-as verziónál fut gyorsabban. Update: a java kód optimalizálása drasztikus javulást eredményezett.
-
-
-Kernel: 4.13.0-37-generic #42~16.04.1-Ubuntu SMP 
-CPU: model name	: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
-
-Futásidők (öt futtatás átlagai, kerekítve):
-
-- C:		18s
-- Java:		29s
-- LUA:		18s
-- Perl:		24s
-- Pypy:		25s
-- Python:	30s
-- Python3:	65s
-- Ruby:		27s
-
-Készült: 2018.03.31
-
-
-
-
-
---------------------------------------------------------------------------------------------------------------------------------
-Elavult infók.
+De számomra a legmeglepőbb az volt, hogy a java változat, amit nem tudtam eléggé primitívre alakítani, egyedül a python3-as verziónál fut gyorsabban.
 Futásidők nagyjából (öt futtatás átlagai), 4.13.0-32 kernellel:
 -  C: 		27s
 -  Python 2.7:	41s
@@ -44,4 +20,7 @@ Futásidők nagyjából (öt futtatás átlagai), 4.13.0-32 kernellel:
 -  Java:	55s
 -  Perl:	25s
 
+Mindezt egy Dell E5570 notebookon, i5-6300U procival, Ubuntu 16.04.3, 16.04.4 alatt.
+ 
+Némi utólagos java optimalizációt követően, a Java futásideje 35s körülire csökkent.
 

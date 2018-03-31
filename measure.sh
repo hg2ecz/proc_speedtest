@@ -1,6 +1,8 @@
 #!/bin/bash
 
-alias tm='/usr/bin/time -f "= \"%C\" %e %S %U %I %O %c"'
+# a time format azért ilyen, hogy az '=' kezdetű sorokat közvetlenül .csv-be tudjam menteni,
+# amit aztán egy LibreOffice fel tud dolgozni
+alias tm='/usr/bin/time -f "= \"%C\";%e;%S;%U;%I;%O;%c"'
 shopt -s expand_aliases
 
 echo -e "\npython 2.7(?)"
