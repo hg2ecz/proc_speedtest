@@ -24,5 +24,6 @@ tm perl ./proc_speed_test.pl
 echo -e "\nC"
 tm ./proc_speed_test_C
 
-
+echo -e "\nLUA"
+tm luajit ./proc_speed_test.lua
 
