@@ -6,7 +6,7 @@ De számomra a legmeglepőbb az volt, hogy a java változat, amit nem tudtam el�
 
 
 Kernel: 4.13.0-37-generic #42~16.04.1-Ubuntu SMP 
-CPU: model name	: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+  CPU: model name	: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
 
 Futásidők (öt futtatás átlagai, kerekítve):
 
