@@ -26,8 +26,8 @@ Készült: 2018.03.31
 
 
 --------------------------------------------------------------------------------------------------------------------------------
-Elavult infók.
-Futásidők nagyjából (öt futtatás átlagai), 4.13.0-32 kernellel:
+Elavult infók.<br>
+~~Futásidők nagyjából (öt futtatás átlagai), 4.13.0-32 kernellel:
 -  C: 		27s
 -  Python 2.7:	41s
 -  Python 3:	85s
@@ -44,4 +44,4 @@ Futásidők nagyjából (öt futtatás átlagai), 4.13.0-32 kernellel:
 -  Java:	55s
 -  Perl:	25s
 
-
+~~
