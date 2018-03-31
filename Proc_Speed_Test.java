@@ -21,7 +21,7 @@ public class Proc_Speed_Test {
 
 							for(Path path : stream){
 								Path path2file = path.resolve("stat");
-								try ( BufferedReader br = Files.newBufferedReader( path ) )
+								try ( BufferedReader br = Files.newBufferedReader( path2file ) )
 								{
 										String line;
 										line = br.readLine();
